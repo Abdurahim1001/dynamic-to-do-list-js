@@ -1,4 +1,4 @@
-// Listen for the 'DOMContentLoaded' event to ensure the HTML is fully loaded
+// Wait for the DOM content to be fully loaded
 document.addEventListener('DOMContentLoaded', () => {
     // Select DOM elements
     const addButton = document.getElementById('add-task-btn'); // Button to add tasks
